@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Planificador",
+    "slug": "Planificador",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/planificador.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/planificador.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.planificadorgastosreactnative"
+    },
+    "web": {
+      "favicon": "./assets/planificador.png"
+    }
+  }
+}
